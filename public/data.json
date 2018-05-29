@@ -1,0 +1,89 @@
+[{
+  "coord": {
+    "lon": -0.13,
+    "lat": 51.51
+  },
+  "weather": [
+    {
+      "id": 721,
+      "main": "Haze",
+      "description": "haze",
+      "icon": "50n"
+    },
+    {
+      "id": 741,
+      "main": "Fog",
+      "description": "fog",
+      "icon": "50n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 57.2,
+    "pressure": 1018,
+    "humidity": 87,
+    "temp_min": 53.6,
+    "temp_max": 60.8
+  },
+  "visibility": 5000,
+  "wind": {
+    "speed": 5.82
+  },
+  "clouds": {
+    "all": 75
+  },
+  "dt": 1527564000,
+  "sys": {
+    "type": 1,
+    "id": 5091,
+    "message": 0.0062,
+    "country": "GB",
+    "sunrise": 1527565896,
+    "sunset": 1527624300
+  },
+  "id": 2643743,
+  "name": "London",
+  "cod": 200
+},
+{
+  "coord": {
+    "lon": -70.55,
+    "lat": 44.56
+  },
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "broken clouds",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 53.51,
+    "pressure": 1014,
+    "humidity": 82,
+    "temp_min": 48.2,
+    "temp_max": 57.2
+  },
+  "visibility": 16093,
+  "wind": {
+    "speed": 4.7,
+    "deg": 280
+  },
+  "clouds": {
+    "all": 75
+  },
+  "dt": 1527563700,
+  "sys": {
+    "type": 1,
+    "id": 1374,
+    "message": 0.0042,
+    "country": "US",
+    "sunrise": 1527584523,
+    "sunset": 1527639465
+  },
+  "id": 4971871,
+  "name": "Mexico",
+  "cod": 200
+}]

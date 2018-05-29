@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  {{>header}}
+</head>
+
+<body>
+  {{>nav}}
+  <div class="jumbotron text-center">
+    <div class="container">
+      <a href="/" class="lang-logo">
+        <img src="/lang-logo.png">
+      </a>
+      <h1>Find-X</h1>
+      <p>Finding Your Solution</p>
+      <a type="button" class="btn btn-lg btn-primary" href="https://github.com/heroku/node-js-getting-started"><span class="glyphicon glyphicon-download"></span> Source on GitHub</a>
+    </div>
+  </div>
+
+  <div class="container" id="apiDiv">
+    {{>form}}
+  </div>
+
+  <div class="container" id="pivotDiv">
+    {{>upload}}
+  </div>
+</body>
+</html>
