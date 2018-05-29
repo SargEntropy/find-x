@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   {{>header}}
 </head>
@@ -13,16 +14,44 @@
       </a>
       <h1>Find-X</h1>
       <p>Finding Your Solution</p>
-      <a type="button" class="btn btn-lg btn-primary" href="https://github.com/heroku/node-js-getting-started"><span class="glyphicon glyphicon-download"></span> Source on GitHub</a>
+      <a type="button" class="btn btn-lg btn-primary" href="https://github.com/SargEntropy/find-x"><span class="glyphicon glyphicon-download"></span> Source on GitHub</a>
     </div>
   </div>
 
-  <div class="container" id="apiDiv">
-    {{>form}}
+  <div class="container">
+    <button class="btn btn-primary" onclick="apiDiv()">Use API's</button>
+    <button class="btn btn-primary" onclick="dragDiv()">Drag N' Drop</button>
   </div>
 
-  <div class="container" id="pivotDiv">
+  <div class="container" id="apiDiv">
+    {{>form-api}}
     {{>upload}}
   </div>
+
+  <div class="container" id="dragDiv">
+    {{>form-drag}}
+    {{>drag}}
+  </div>
+
 </body>
+
 </html>
+
+<script type="text/javascript">
+  function apiDiv() {
+    var api = document.getElementById('apiDiv');
+    if (api.style.display === "none") api.style.display = "block";
+    else api.style.display = "none";
+  }
+
+  function dragDiv() {
+    var drag = document.getElementById('dragDiv');
+    if (drag.style.display === "none") drag.style.display = "block";
+    else drag.style.display = "none";
+  }
+
+  $(document).ready(function() {
+    $("#apiDiv").hide();
+    $("#dragDiv").hide();
+  });
+</script>

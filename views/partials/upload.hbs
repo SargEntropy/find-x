@@ -9,7 +9,7 @@
       $.pivotUtilities.export_renderers
     );
 
-    $.getJSON("data.json", function(mps) {
+    $.getJSON("mps.json", function(mps) {
       $("#output").pivotUI(mps, {
         renderers: renderers,
         cols: [""],

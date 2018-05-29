@@ -5,85 +5,90 @@
   },
   "weather": [
     {
+      "id": 520,
+      "main": "Rain",
+      "description": "light intensity shower rain",
+      "icon": "09d"
+    },
+    {
+      "id": 211,
+      "main": "Thunderstorm",
+      "description": "thunderstorm",
+      "icon": "11d"
+    },
+    {
       "id": 721,
       "main": "Haze",
       "description": "haze",
-      "icon": "50n"
-    },
-    {
-      "id": 741,
-      "main": "Fog",
-      "description": "fog",
-      "icon": "50n"
+      "icon": "50d"
     }
   ],
   "base": "stations",
   "main": {
-    "temp": 57.2,
-    "pressure": 1018,
-    "humidity": 87,
-    "temp_min": 53.6,
-    "temp_max": 60.8
+    "temp": 60.44,
+    "pressure": 1015,
+    "humidity": 100,
+    "temp_min": 57.2,
+    "temp_max": 64.4
   },
-  "visibility": 5000,
+  "visibility": 4300,
   "wind": {
-    "speed": 5.82
+    "speed": 8.05,
+    "deg": 340
   },
   "clouds": {
-    "all": 75
+    "all": 68
   },
-  "dt": 1527564000,
+  "dt": 1527601800,
   "sys": {
     "type": 1,
     "id": 5091,
     "message": 0.0062,
     "country": "GB",
-    "sunrise": 1527565896,
-    "sunset": 1527624300
+    "sunrise": 1527565872,
+    "sunset": 1527624331
   },
   "id": 2643743,
   "name": "London",
   "cod": 200
-},
-{
+},{
   "coord": {
-    "lon": -70.55,
-    "lat": 44.56
+    "lon": 111.49,
+    "lat": -7.85
   },
   "weather": [
     {
-      "id": 803,
-      "main": "Clouds",
-      "description": "broken clouds",
-      "icon": "04n"
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01n"
     }
   ],
   "base": "stations",
   "main": {
-    "temp": 53.51,
-    "pressure": 1014,
-    "humidity": 82,
-    "temp_min": 48.2,
-    "temp_max": 57.2
+    "temp": 71.71,
+    "pressure": 980.26,
+    "humidity": 76,
+    "temp_min": 71.71,
+    "temp_max": 71.71,
+    "sea_level": 1025.29,
+    "grnd_level": 980.26
   },
-  "visibility": 16093,
   "wind": {
-    "speed": 4.7,
-    "deg": 280
+    "speed": 3.96,
+    "deg": 173.503
   },
   "clouds": {
-    "all": 75
+    "all": 0
   },
-  "dt": 1527563700,
+  "dt": 1527602824,
   "sys": {
-    "type": 1,
-    "id": 1374,
-    "message": 0.0042,
-    "country": "US",
-    "sunrise": 1527584523,
-    "sunset": 1527639465
+    "message": 0.0036,
+    "country": "ID",
+    "sunrise": 1527547223,
+    "sunset": 1527589352
   },
-  "id": 4971871,
-  "name": "Mexico",
+  "id": 1630798,
+  "name": "Japan",
   "cod": 200
 }]
